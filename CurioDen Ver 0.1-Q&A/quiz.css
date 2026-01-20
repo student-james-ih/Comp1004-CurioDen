@@ -1,0 +1,27 @@
+/* Styling for answer choice box */
+.choiceContainer{
+    display: flex;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    font-size: 1.8rem;
+    border: 0.1rem solid rgba(2, 95, 47, 0.25);
+    background-color: whitesmoke;
+}
+/* Styling for answer choice Number */
+.choiceNum{
+    padding: 1.5rem 2.5rem;
+    background-color: green;
+    color: white;
+}
+/* Styling for text in choice box */
+.choiceText{
+    padding: 1.5rem;
+    width: 100%;
+}
+/* Highlights choice box on hover */
+.choiceContainer:hover{
+    cursor: pointer;
+    box-shadow: 0.04rem 0.4rem 0 rgba(2, 95, 47, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}

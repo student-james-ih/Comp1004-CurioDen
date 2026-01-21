@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="quiz.css">
+    <title>CurioDen</title>
+</head>
+<body>
+    <div class="container">
+        <div id="game" class="justifyCenter flexColumn">
+            <!-- Creation of quiz info display -->
+             <div id="quizInfo">
+                <div id="infoItem">
+                    <p class="infoType">Question</p>
+                    <h1 class="infoHeadText" id="qCounter"></h1>
+                </div>
+                <div id="infoItem">
+                    <p class="infoType">Score</p>
+                    <h1 class="infoHeadText" id="score">0</h1>
+                </div>
+             </div>
+             <!-- Creation of answer boxxes -->
+            <h2 id="question">Asking You a Question?</h2>
+            <div class="choiceContainer">
+                <p class="choiceNum">A</p>
+                <p class="choiceText" data-number="1">Choice One</p>
+            </div>
+            <div class="choiceContainer">
+                <p class="choiceNum">D</p>
+                <p class="choiceText" data-number="2">Choice Two</p>
+            </div>
+            <div class="choiceContainer">
+                <p class="choiceNum">C</p>
+                <p class="choiceText" data-number="3">Choice Three</p>
+            </div>
+            <div class="choiceContainer">
+                <p class="choiceNum">D</p>
+                <p class="choiceText" data-number="4">Choice Four</p>
+            </div>
+        </div>
+    </div> 
+    <!-- Javascript for page -->
+    <script src="quiz.js"></script>
+</body>
+</html>

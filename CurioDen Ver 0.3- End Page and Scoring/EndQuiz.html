@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Complete!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="EndQ" class="flexCenter flexColumn">
+            <h1 id="endScore"></h1>
+            <!-- Form for user to submit score -->
+            <form>
+                <input type="text" name="username" id="username" placeholder="username">
+                <button disabled type="submit" class="btn" id="saveBtn" onclick="saveHscore(event)">Save Score</button>
+            </form>
+            <a class="btn" href="/quiz.css">Try Again</a>
+            <a class="btn" href="/main.html">Home Page</a>
+        </div>
+    </div>
+    <!-- Javascript for the page -->
+     <script src="EndQuiz.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+[
+    {
+        "question": "Which keyword is used in C# to define a class?",
+        "choice1": "<struct>",
+        "choice2": "<define>",
+        "choice3": "<class--->",
+        "choice4": "<object>",
+        "answer": 3
+
+    },
+
+    {
+        "question": "What is the correct way to declare an integer variable in C#?",
+        "choice1": "<int number = '10';>",
+        "choice2": "<integer number = 10;>",
+        "choice3": "<var number = 'ten';>",
+        "choice4": "<int number = 10;--->",
+        "answer": 4
+
+    },
+
+    {
+        "question": "Which of the following types is a value type in C#?",
+        "choice1": "<string>",
+        "choice2": "<int--->",
+        "choice3": "<array>",
+        "choice4": "<class>",
+        "answer": 2
+
+    },
+
+    {
+        "question": "What does the static keyword mean when applied to a method?",
+        "choice1": "<The method belongs to the class, not to an instance of the class--->",
+        "choice2": "<The method can only be called once>",
+        "choice3": "<The method cannot return a value>",
+        "choice4": "<The method runs automatically at program startup>",
+        "answer": 1
+
+    }
+]

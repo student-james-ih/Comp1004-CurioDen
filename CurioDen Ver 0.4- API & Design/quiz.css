@@ -1,0 +1,81 @@
+/* Styling for answer choice box */
+.choiceContainer{
+    display: flex;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    font-size: 1.8rem;
+    border: 0.1rem solid rgba(2, 95, 47, 0.25);
+    background-color: whitesmoke;
+}
+/* Styling for answer choice Number */
+.choiceNum{
+    padding: 1.5rem 2.5rem;
+    background-color: green;
+    color: white;
+}
+/* Styling for text in choice box */
+.choiceText{
+    padding: 1.5rem;
+    width: 100%;
+}
+/* Highlights choice box on hover */
+.choiceContainer:hover{
+    cursor: pointer;
+    box-shadow: 0.04rem 0.4rem 0 rgba(2, 95, 47, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+
+/* classes for correct/incorrect answer */
+.correct{
+    background-color: lightgreen;
+}
+.incorrect{
+    background-color: lightcoral;
+}
+/* Styling for quiz info */
+#quizInfo{
+    display: flex;
+    justify-content: space-around;
+}
+.infoType{
+    text-align: center;
+    font-size: 2rem;
+}
+.infoHeadText{
+    text-align: center;
+}
+
+/* Loader styling */
+#loader {
+    border: 1.6rem solid white;
+    border-radius: 50%;
+    border-top:  1.6rem solid green;
+    width: 12rem;
+    height: 12rem;
+    animation: load 2s linear infinite;
+}
+
+@keyframes load{
+    0%{
+        transform: rotate(0deg) ;
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+/* Progress Bar */
+#progBar{
+    width: 20rem;
+    height: 4rem;
+    border: 0.3rem solid green;
+    border-radius: 15px;
+    margin-top: 1rem;
+}
+#barFill{
+    height: 3.4rem;
+    background-color: green;
+    border-radius: 10px;
+    width: 0%;
+}
